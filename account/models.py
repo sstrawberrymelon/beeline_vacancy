@@ -11,7 +11,5 @@ class CustomUser(AbstractUser):
     last_name = models.CharField(('Last Name'), max_length=150)
 
 
-
-
     def __str__(self):
         return self.phone_number

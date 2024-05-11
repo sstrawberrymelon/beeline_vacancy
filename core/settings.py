@@ -31,7 +31,8 @@ INSTALLED_APPS = [
     'drf_yasg',
     # my apps
     'account',
-    'vacancy'
+    'vacancy',
+    'category',
 ]
 
 MIDDLEWARE = [
