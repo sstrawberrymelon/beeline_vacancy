@@ -13,6 +13,7 @@ class Vacancy(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     resume_collect = models.FileField(upload_to='resumes/',blank=True)
     city = models.CharField(max_length=255)
+    motivation_desc = models.CharField(max_length=255)
 
     def __str__(self):
         return self.title

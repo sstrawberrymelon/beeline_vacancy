@@ -16,13 +16,12 @@ class RegisterSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = (
-            "phone number",
+            "phone_number",
             "password",
             "password2",
             "first_name",
             "last_name",
-            "avatar",
-            "username",
+
         )
 
     def validate(self, attrs: dict) -> dict:
