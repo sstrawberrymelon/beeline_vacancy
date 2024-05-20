@@ -19,3 +19,4 @@ class VacancyViewSet(ModelViewSet):
 
 
 
+9
